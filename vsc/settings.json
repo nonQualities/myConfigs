@@ -1,0 +1,175 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": false,
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "editor.lineHeight": 1.4,
+    "editor.cursorWidth": 4,
+    "editor.cursorHeight": 30,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "normal",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 19,
+    "editor.fontVariations": "true",
+    "editor.fontLigatures": "true",
+    "telemetry.telemetryLevel": "off",
+    "haskell.manageHLS": "GHCup",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "editor.lineNumbers": "relative",
+    "search.showLineNumbers": true,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "catppuccin.bracketMode": "monochromatic",
+    "catppuccin.accentColor": "sky",
+    "catppuccin.colorOverrides": {},
+    "editor.autoClosingOvertype": "always",
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp_Runner.warningsAsError": true,
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.loggingLevel": "Debug",
+    "update.showReleaseNotes": false,
+    "errorLens.gutterIconsEnabled": true,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.fontFamily": "Martian Mono",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.external.linuxExec": "ptyxis",
+    "solarizedCustomTheme.accentColor": "Red",
+    "java.completion.favoriteStaticMembers": [
+        
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    
+    "workbench.colorTheme": "Monochrome Dark Subtle",
+    "fortran.fortls.path": "/usr/local/bin/fortls",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "git.autofetch": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "files.autoSave": "afterDelay",
+    "[FortranFreeForm]": {
+
+    },
+    "fortran.linter.initialize": true,
+    "fortran.fortls.notifyInit": true,
+    "workbench.editor.empty.hint": "hidden",
+    "diffEditor.codeLens": true,
+
+    "[csharp]": {
+    "editor.acceptSuggestionOnCommitCharacter": false
+    },
+"editor.cursorBlinking": "smooth",
+"editor.cursorStyle": "line",
+"editor.cursorSmoothCaretAnimation": "on",
+"workbench.reduceMotion": "off",
+"editor.bracketPairColorization.enabled": false,
+"catppuccin-icons.monochrome": true,
+"workbench.secondarySideBar.defaultVisibility": "hidden",
+"chat.commandCenter.enabled": false,
+"terminal.integrated.fontWeight": "normal",
+"terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+"workbench.colorCustomizations": {
+    "[Monochrome Dark Subtle]": {
+
+        "editorError.background": "#ff00004c",
+        "editorError.foreground": "#ff4949",
+        "editorWarning.background": "#ffd70030",
+        "editorWarning.foreground": "#cc9600",
+        "editorCodeLens.foreground": "#7a7a7a9a",
+        "editorLineNumber.foreground": "#6b6b6b92",
+        "editorLineNumber.activeForeground" : "#dededea7",
+        "editor.selectionBackground" : "#ffffff",
+        "editor.selectionForeground" : "#000000",
+        
+       
+        
+    }
+},
+
+"editor.tokenColorCustomizations": {
+        "[Monochrome Dark Subtle]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword",
+                        "storage.type",
+                        "storage.modifier",
+                        "keyword.control"
+                    ],
+                    "settings": {
+                        
+                        "foreground": "#d2d2d2",
+                       
+                    },
+                    
+                },
+            ]
+        }
+    },
+//     "workbench.colorCustomizations": {
+//     "[Monochrome Light Amplified]": {
+
+//         "editorError.background": "#ff00004c",
+//         "editorError.foreground": "#ff4949",
+//         "editorWarning.background": "#ffd70030",
+//         "editorWarning.foreground": "#cc9600",
+//         "editorCodeLens.foreground": "#3c3c3c9a",
+//         "editorLineNumber.foreground": "#6b6b6b92",
+//         "editorLineNumber.activeForeground" : "#0a6393",
+//         "editor.selectionBackground" : "#c7e9ffc5",
+//         "editor.selectionForeground" : "#000000",
+        
+       
+        
+//     }
+// },
+
+// "editor.tokenColorCustomizations": {
+//         "[Monochrome Light Amplified]": {
+//             "textMateRules": [
+//                 {
+//                     "scope": [
+//                         "keyword",
+//                         "storage.type",
+//                         "storage.modifier",
+//                         "keyword.control"
+//                     ],
+//                     "settings": {
+                        
+//                         "foreground": "#3e3e3e",
+                       
+//                     },
+                    
+//                 },
+               
+//             ]
+//         }
+//     },
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.overtypeCursorStyle": "line",
+    "material-icon-theme.saturation": 1,
+    "material-icon-theme.files.color": "#fdd835",
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "workbench.productIconTheme": "adwaita"
+ 
+}
