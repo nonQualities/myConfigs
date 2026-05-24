@@ -43,7 +43,7 @@
     "terminal.external.linuxExec": "ptyxis",
     "solarizedCustomTheme.accentColor": "Red",
     "java.completion.favoriteStaticMembers": [
-        
+
         "org.junit.Assert.*",
         "org.junit.Assume.*",
         "org.junit.jupiter.api.Assertions.*",
@@ -57,8 +57,8 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    
-    "workbench.colorTheme": "Monochrome Dark Subtle",
+
+    "workbench.colorTheme": "Monochrome Light Amplified",
     "fortran.fortls.path": "/usr/local/bin/fortls",
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.startupEditor": "none",
@@ -88,7 +88,7 @@
 "terminal.integrated.fontWeight": "normal",
 "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
 "workbench.colorCustomizations": {
-    "[Monochrome Dark Subtle]": {
+    "[Monochrome Light Amplified]": {
 
         "editorError.background": "#ff00004c",
         "editorError.foreground": "#ff4949",
@@ -97,16 +97,16 @@
         "editorCodeLens.foreground": "#7a7a7a9a",
         "editorLineNumber.foreground": "#6b6b6b92",
         "editorLineNumber.activeForeground" : "#dededea7",
-        "editor.selectionBackground" : "#ffffff",
-        "editor.selectionForeground" : "#000000",
-        
-       
-        
+        "editor.selectionBackground" : "#e5e5e5",
+        "editor.selectionForeground" : "#161616",
+
+
+
     }
 },
 
 "editor.tokenColorCustomizations": {
-        "[Monochrome Dark Subtle]": {
+        "[Monochrome Light Amplified]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -116,11 +116,11 @@
                         "keyword.control"
                     ],
                     "settings": {
-                        
-                        "foreground": "#d2d2d2",
-                       
+
+                        "foreground": "#727272",
+                       "fontStyle": "bold"
                     },
-                    
+
                 },
             ]
         }
@@ -137,9 +137,9 @@
 //         "editorLineNumber.activeForeground" : "#0a6393",
 //         "editor.selectionBackground" : "#c7e9ffc5",
 //         "editor.selectionForeground" : "#000000",
-        
-       
-        
+
+
+
 //     }
 // },
 
@@ -154,13 +154,13 @@
 //                         "keyword.control"
 //                     ],
 //                     "settings": {
-                        
+
 //                         "foreground": "#3e3e3e",
-                       
+
 //                     },
-                    
+
 //                 },
-               
+
 //             ]
 //         }
 //     },
@@ -169,7 +169,6 @@
     "material-icon-theme.saturation": 1,
     "material-icon-theme.files.color": "#fdd835",
     "material-icon-theme.opacity": 1,
-    "material-icon-theme.activeIconPack": "angular_ngrx",
-    "workbench.productIconTheme": "adwaita"
- 
+    "material-icon-theme.activeIconPack": "angular_ngrx"
+
 }

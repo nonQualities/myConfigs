@@ -1,0 +1,110 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+e",
+        "command": "workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "ctrl+k e",
+        "command": "-workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "editor.action.accessibilityHelpConfigureAssignedKeybindings",
+        "when": "accessibilityHelpIsShown && accessibleViewHasAssignedKeybindings"
+    },
+    {
+        "key": "alt+a",
+        "command": "-editor.action.accessibilityHelpConfigureAssignedKeybindings",
+        "when": "accessibilityHelpIsShown && accessibleViewHasAssignedKeybindings"
+    },
+    {
+        "key": "alt+a",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "nextBlankLine"
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "prevBlankLine"
+        },
+        "when": "editorFocus"
+    },
+
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "nextBlankLine",
+            "select": true,
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "prevBlankLine",
+            "select": true,
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "wrappedLine"
+
+
+        },
+        "when": "editorTextFocus && !editorHasCompletionItemProvider" },
+        {
+            "key": "up",
+            "command": "cursorMove",
+            "args": {
+                "to": "up",
+                "by":"wrappedLine"
+
+            },
+            "when": "editorTextFocus && !editorHasCompletionItemProvider"
+        },
+        {
+            "key": "alt+b",
+            "command": "workbench.action.closeAuxiliaryBar"
+        },
+        {
+            "key": "alt+t",
+            "command": "workbench.action.terminal.toggleTerminal",
+            "when": "terminal.active"
+        },
+        {
+            "key": "ctrl+`",
+            "command": "-workbench.action.terminal.toggleTerminal",
+            "when": "terminal.active"
+        },
+
+
+]
